@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    color: aliceblue;
+}
+
+main{
+    height: 98vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    background-color: rgb(31, 24, 24);
+}
+header{
+    width: inherit;
+    background-color: rgb(139, 1, 1);
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    border: 1px solid rgb(200, 193, 193);
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#photo{
+    height: 300px;
+    width: 200px;
+    background-image: url('miguel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    width: inherit;
+    background-color: rgb(139, 1, 1);
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
