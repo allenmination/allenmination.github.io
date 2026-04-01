@@ -1,6 +1,8 @@
 *{
     margin: 0;
     color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 main{
@@ -54,4 +56,15 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: center;
+}
+div {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+}
+p{
+    text-indent: 20px;
+}
+a{
+    color: rgb(139, 1, 1);
 }
