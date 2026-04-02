@@ -52,8 +52,6 @@ footer {
     width: inherit;
     background-color: rgb(139, 1, 1);
     padding: 30px;
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
 }
